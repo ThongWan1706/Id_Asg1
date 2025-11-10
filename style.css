@@ -1,0 +1,59 @@
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fffaf4; 
+}
+
+/* Header */
+header {
+  background-color: #fffaf4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 10px 5%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Logo */
+.logo {
+  width: 10px;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Navigation */
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  size: 30px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  font-size: 30px;
+}
+
+.nav li a:hover {
+  color: #b87333;
+}
+
+/* New member section */
+.newmember{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.newmember a:hover{
+    color: #b87333;
+}
