@@ -1,26 +1,31 @@
-/* Body */
+/* General */
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #fffaf4; 
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #fffaf4;
+  color: #333;
 }
 
 /* Header */
 header {
   background-color: #fffaf4;
   display: flex;
-  align-items: center;
-  justify-content: space-between; 
-  padding: 10px 5%;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  align-items: center;      
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 8%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 /* Logo */
-.logo {
-  width: 10px;
+.logo img {
+  width: 140px;
   height: auto;
-  max-width: 100%;
+  display: block;            
   object-fit: contain;
 }
 
@@ -28,32 +33,86 @@ header {
 .nav {
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 35px;
   margin: 0;
   padding: 0;
-  size: 30px;
+  align-items: center;       
 }
 
 .nav li a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
-  transition: color 0.2s ease;
-  font-size: 30px;
+  font-size: 18px;
+  position: relative;
+  transition: color 0.3s ease;
 }
 
 .nav li a:hover {
   color: #b87333;
 }
 
+
 /* New member section */
-.newmember{
-    padding-top: 2px;
-    padding-bottom: 2px;
-    font-size: 30px;
-    text-align: center;
+.newmember {
+  font-size: 18px;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-.newmember a:hover{
-    color: #b87333;
+.newmember a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
 }
+
+.newmember a:hover {
+  color: #b87333;
+}
+
+/* Main banner */
+.mainbanner {
+  width: 100%;
+  overflow: hidden;
+}
+
+.mainbanner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; 
+    align-items: center;    
+    padding: 15px 5%;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+    
+  .logo img {
+    width: 100px;
+  }
+
+  .newmember {
+    font-size: 16px;
+  }
+
+}
+
+
