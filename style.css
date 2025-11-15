@@ -116,7 +116,6 @@ header {
 
 }
 
-/* Keep your separate hover style */
 .seemorebutton:hover, 
 .sectionseemorebutton:hover {
   background-color: #e9c6a5;
@@ -239,20 +238,21 @@ header {
   justify-content: space-between; 
   align-items: center; 
   max-width: 1200px;
-  margin: 40px auto 0px 0px; 
-  padding: 0 1%; 
+  margin: 40px auto 0 auto; 
+  padding: 0 1%;
 }
 
 .contact-section {
-  max-width: 1200px;
-  padding: 0 1%;
-  display: flex; 
-  gap: 30px; 
-  align-items: flex-start; 
+    display: flex;
+     justify-content: space-between; 
+    align-items: center; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 1%;
 }
 
 .contact-image-container {
-  flex: 4; 
+  flex: 5; 
   background-color: #ccc; 
   height: 500px; 
   overflow: hidden;
@@ -266,8 +266,12 @@ header {
 }
 
 .contact-form-container {
-  flex: 6; 
-  padding: 5px;
+  flex: 5; 
+  padding: 20px;
+}
+
+.intro-text{
+  font-size: 18px;
 }
 
 /* --- Styling the Form --- */
@@ -329,6 +333,29 @@ header {
   cursor: pointer;
   font-weight: bold;
   margin-top: 15px;
+}
+
+/* Product and review individual pages */
+.returnbutton, 
+.returnbutton,
+.returnbutton:focus, 
+.returnbutton:focus,
+.returnbutton:active, 
+.returnbutton:active {
+  padding: 8px 15px;
+  background-color: #f0f0f0; 
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+  outline: none; 
+  text-decoration: none;
+
+}
+
+.returnbutton:hover, 
+.returnbutton:active:hover {
+  background-color: #e9c6a5;
 }
 
 
