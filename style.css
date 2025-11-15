@@ -85,19 +85,21 @@ header {
   border-radius: 0;
 }
 
-/* Featured Product text and button */
+/* --- Featured Product Header --- */
 .Featuredproductsheader {
   display: flex;
   justify-content: space-between; 
   align-items: center; 
-  padding: 1%;
+  max-width: 1200px;
+  margin: 40px auto 10px auto; 
+  padding: 0 1%; 
 }
 
 .Featuredproductsheader p {
   margin: 0;
 }
 
-.seemorebutton {
+.seemorebutton, .sectionseemorebutton {
   padding: 8px 15px;
   background-color: #f0f0f0; 
   border: none;
@@ -105,11 +107,12 @@ header {
   font-weight: bold;
 }
 
-.seemorebutton a:hover {
-  background-color: #f0f0f0;
+
+.seemorebutton:hover {
+  background-color: #e8e8e8;
 }
 
-/* Top 3 products featured */
+/* --- PRODUCT GRID (Top 3 products) --- */
 .featured-products-section {
   max-width: 1200px; 
   margin: 0 auto 40px auto; 
@@ -158,15 +161,16 @@ header {
   margin-bottom: 10px;
 }
 
-/* Reviews Header and Button */
+/* --- Reviews Section--- */
 .ReviewsSection {
   display: flex;
   justify-content: space-between; 
   align-items: center; 
-  padding: 1%;
+  max-width: 1200px;
+  margin: 40px auto 10px auto; 
+  padding: 0 1%; 
 }
 
-/* Top 3 reviews featured */
 .featured-reviews-section {
   max-width: 1200px; 
   margin: 0 auto 40px auto; 
@@ -197,15 +201,17 @@ header {
 }
 
 .stars{
-  color: yellow;
   font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 1;
+  color: yellow;
 }
 
-/* Footer */
+/* --- FOOTER --- */
 .site-footer {
   margin-top: 50px; 
   padding: 20px 0;
-  background-color: #fffaf4;
+  background-color: #f5f5f5;
   border-top: 1px solid #444343;
   text-align: center; 
 }
@@ -216,10 +222,8 @@ header {
   margin: 0;
 }
 
-
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
+/* --- RESPONSIVE ADJUSTMENTS --- */
+@media (max-width: 496px) {
   header {
     flex-direction: column; 
     align-items: center;    
@@ -244,7 +248,25 @@ header {
   .newmember {
     font-size: 16px;
   }
+  
+  .Featuredproductsheader,
+  .ReviewsSection {
+    flex-direction: column; 
+    align-items: left; 
+  }
 
+  .sectionseemorebutton{
+    width: 108%;
+  }
+
+  .featured-products-section,.featured-reviews-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .Featuredproductsheader,.ReviewsSection {
+    padding: 0 5%;
+  }
 }
+
 
 
