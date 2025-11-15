@@ -106,13 +106,14 @@ header {
 .seemorebutton:active, 
 .sectionseemorebutton:active {
   padding: 8px 15px;
-  background-color: #f0f0f0; 
   border: none;
   cursor: pointer;
   font-weight: bold;
   color: #333;
   outline: none; 
   text-decoration: none;
+  size: 30%;
+  align-items: flex-start;
 
 }
 
@@ -158,7 +159,7 @@ header {
 
 .product-info p {
   margin: 0 0 5px 0; 
-  font-size: 14px;
+  font-size: 20 px;
 }
 
 .product-name {
@@ -203,6 +204,20 @@ header {
   object-fit: cover; 
   display: block; 
   border-bottom: 1px solid #ccc;
+}
+
+.client-info {
+  background-color: #e0e0e0; 
+  padding: 15px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+  min-height: 100px; 
+}
+
+.client-info p {
+  margin: 0 0 5px 0; 
+  font-size: 20 px;
 }
 
 .client-name {
@@ -336,26 +351,163 @@ header {
 }
 
 /* Product and review individual pages */
-.returnbutton, 
-.returnbutton,
-.returnbutton:focus, 
-.returnbutton:focus,
-.returnbutton:active, 
-.returnbutton:active {
-  padding: 8px 15px;
-  background-color: #f0f0f0; 
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-  color: #333;
-  outline: none; 
-  text-decoration: none;
-
+.return{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  max-width: 1200px;
+  margin: 40px auto 0 auto; 
+  padding: 0 1%;
 }
 
-.returnbutton:hover, 
-.returnbutton:active:hover {
-  background-color: #e9c6a5;
+.returnbutton, 
+.returnbutton:focus,
+.returnbutton:active {
+margin: 40px auto 0 auto; 
+    padding: 10px 15px;
+    font-size: 30px; 
+    line-height: 1; 
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    outline: none; 
+    text-decoration: none;
+}
+
+.product-page-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1%;
+}
+
+/* --- Return Button --- */
+.return {
+    margin: 40px 0 10px 0; 
+}
+
+.returnbutton, 
+.returnbutton:focus, 
+.returnbutton:active {
+    margin: 0; 
+    padding: 10px 15px; 
+    font-size: 24px; 
+    line-height: 1; 
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    outline: none; 
+    text-decoration: none;
+    display: inline-block; 
+}
+
+
+/* --- Main product detail section --- */
+.product-detail-main-section{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 1%;
+}
+
+.product-media {
+    flex: 4; 
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.product-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    padding-right: 4px;
+}
+
+.product-summary {
+    flex: 6; 
+    padding-left: 2%;
+}
+
+.product-summary h2 {
+    margin-top: 0;
+    font-size: 32px;
+}
+
+.description-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    min-height: 150px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.product-summary, .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.add-to-cart {
+    padding: 15px 30px;
+    background-color: #ccc; 
+    border: none;
+    width: 100%; 
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.reviews-section {
+  display: flex;
+  max-width: 1200px;
+  margin: 40px auto 10px auto; 
+  padding: 0 1%; 
+}
+
+.reviews-title {
+    border-top: 1px solid #ccc;
+    padding-top: 40px;
+    margin-top: 40px;
+    font-size: 28px;
+    margin: 0 auto; 
+    padding: 0 1%;
+}
+
+.review-card-detail {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.customer-picture {
+    width: 80px;
+    height: 80px;
+    background-color: #e0e0e0;
+    flex-shrink: 0;
+}
+
+.review-text-content h4 {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+.review-text-content .stars {
+    font-size: 20px;
+    color: yellow; 
+    margin-bottom: 10px;
+}
+
+.review-text-content .comment {
+    margin: 0;
 }
 
 
