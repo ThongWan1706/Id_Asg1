@@ -99,18 +99,29 @@ header {
   margin: 0;
 }
 
-.seemorebutton, .sectionseemorebutton {
+.seemorebutton, 
+.sectionseemorebutton,
+.seemorebutton:focus, 
+.sectionseemorebutton:focus,
+.seemorebutton:active, 
+.sectionseemorebutton:active {
   padding: 8px 15px;
   background-color: #f0f0f0; 
   border: none;
   cursor: pointer;
   font-weight: bold;
+  color: #333;
+  outline: none; 
+  text-decoration: none;
+
 }
 
-
-.seemorebutton:hover {
-  background-color: #e8e8e8;
+/* Keep your separate hover style */
+.seemorebutton:hover, 
+.sectionseemorebutton:hover {
+  background-color: #e9c6a5;
 }
+
 
 /* --- PRODUCT GRID (Top 3 products) --- */
 .featured-products-section {
