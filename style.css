@@ -233,6 +233,105 @@ header {
   margin: 0;
 }
 
+/* Contact page */
+.ContactSection {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  max-width: 1200px;
+  margin: 40px auto 0px 0px; 
+  padding: 0 1%; 
+}
+
+.contact-section {
+  max-width: 1200px;
+  padding: 0 1%;
+  display: flex; 
+  gap: 30px; 
+  align-items: flex-start; 
+}
+
+.contact-image-container {
+  flex: 4; 
+  background-color: #ccc; 
+  height: 500px; 
+  overflow: hidden;
+}
+
+.contact-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.contact-form-container {
+  flex: 6; 
+  padding: 5px;
+}
+
+/* --- Styling the Form --- */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-text {
+  margin-bottom: 25px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Groups Name and Contact Number on the same row */
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  flex: 1; 
+}
+
+.form-group.full-width {
+    flex: none; 
+    width: 100%;
+}
+
+.contact-form label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0; 
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical; 
+}
+
+.submit-button {
+  align-self: flex-start; 
+  padding: 10px 30px;
+  background-color: #f0f0f0; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+
 /* --- RESPONSIVE ADJUSTMENTS --- */
 @media (max-width: 496px) {
   header {
@@ -258,10 +357,12 @@ header {
 
   .newmember {
     font-size: 16px;
+    padding-left: 2px;
+    padding-right: 2px;
   }
   
   .Featuredproductsheader,
-  .ReviewsSection {
+  .ReviewsSection, .ContactSection {
     flex-direction: column; 
     align-items: left; 
   }
@@ -274,8 +375,28 @@ header {
     grid-template-columns: repeat(1, 1fr);
   }
   
-  .Featuredproductsheader,.ReviewsSection {
+  .Featuredproductsheader,.ReviewsSection, .ContactSection {
     padding: 0 5%;
+  }
+
+  .contact-section {
+    flex-direction: column; 
+    padding: 0 5%;
+  }
+
+  .contact-image-container {
+    height: 300px; 
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    flex-direction: column; 
+    gap: 0;
+  }
+
+  .submit-button{
+    width: 100%;
+    align-items: center;
   }
 }
 
