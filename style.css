@@ -102,26 +102,22 @@ header {
 .seemorebutton, 
 .sectionseemorebutton,
 .seemorebutton:focus, 
-.sectionseemorebutton:focus,
-.seemorebutton:active, 
 .sectionseemorebutton:active {
-  padding: 8px 15px;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-  color: #333;
-  outline: none; 
-  text-decoration: none;
-  size: 30%;
-  align-items: flex-start;
+    padding: 8px 15px;
+    background-color: #f0f0f0; 
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333; 
+    outline: none; 
+    text-decoration: none;
+    display: inline-block; 
+    transition: background-color 0.3s, color 0.3s; }
 
+  .seemorebutton:hover, .sectionseemorebutton:hover {
+    background-color: #b87333;
+    color: #fffaf4; 
 }
-
-.seemorebutton:hover, 
-.sectionseemorebutton:hover {
-  background-color: #e9c6a5;
-}
-
 
 /* --- PRODUCT GRID (Top 3 products) --- */
 .featured-products-section {
@@ -562,8 +558,7 @@ header {
 .review-summary .stars {
     font-size: 40px;
     color: yellow; 
-    margin-bottom: 0;
-    display: block;
+    margin-bottom: 0px;
 }
 
 /* --- RESPONSIVE ADJUSTMENTS --- */
@@ -598,20 +593,23 @@ header {
   .Featuredproductsheader,
   .ReviewsSection, .ContactSection {
     flex-direction: column; 
-    align-items: left; 
+    align-items: center;
+    padding: 0 5%; 
   }
 
   .sectionseemorebutton{
-    width: 108%;
+    width: 98%;
+    display: block; 
+    margin: 0 auto;
+    text-align: center; 
+    padding: 2%;
+    align-items: center;
   }
 
   .featured-products-section,.featured-reviews-section {
     grid-template-columns: repeat(1, 1fr);
   }
-  
-  .Featuredproductsheader,.ReviewsSection, .ContactSection {
-    padding: 0 5%;
-  }
+
 
   .contact-section {
     flex-direction: column; 
