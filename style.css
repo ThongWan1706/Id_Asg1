@@ -562,7 +562,8 @@ header {
 .review-summary .stars {
     font-size: 40px;
     color: yellow; 
-    margin-bottom: 10px;
+    margin-bottom: 0;
+    display: block;
 }
 
 /* --- RESPONSIVE ADJUSTMENTS --- */
@@ -654,5 +655,4 @@ header {
     padding: 2%;
   }
   
-
 }
