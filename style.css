@@ -103,20 +103,20 @@ header {
 .sectionseemorebutton,
 .seemorebutton:focus, 
 .sectionseemorebutton:active {
-    padding: 8px 15px;
-    background-color: #f0f0f0; 
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    color: #333; 
-    outline: none; 
-    text-decoration: none;
-    display: inline-block; 
-    transition: background-color 0.3s, color 0.3s; }
+  padding: 8px 15px;
+  background-color: #f0f0f0; 
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333; 
+  outline: none; 
+  text-decoration: none;
+  display: inline-block; 
+  transition: background-color 0.3s, color 0.3s; }
 
-  .seemorebutton:hover, .sectionseemorebutton:hover {
-    background-color: #b87333;
-    color: #fffaf4; 
+.seemorebutton:hover, .sectionseemorebutton:hover {
+  background-color: #b87333;
+  color: #fffaf4; 
 }
 
 /* --- PRODUCT GRID (Top 3 products) --- */
@@ -393,6 +393,25 @@ header {
   display: inline-block; 
 }
 
+.Addtocart,
+.Addtocart.focus {
+  width: 95%;
+  padding: 15px 15px;
+  background-color: #f0f0f0; 
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333; 
+  outline: none; 
+  text-decoration: none;
+  display: inline-block; 
+  transition: background-color 0.3s, color 0.3s; }
+
+.Addtocart:hover {
+  background-color: #b87333;
+  color: #fffaf4; 
+}
+
 /* --- Main product detail section --- */
 .product-detail-main-section{
   display: flex;
@@ -483,7 +502,7 @@ header {
 }
 
 .review-card-detail {
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
@@ -494,9 +513,9 @@ header {
     box-sizing: border-box; 
 }
 
-.customer-picture {
-    width: 80px;
-    height: 80px;
+.customer-picture img {
+    width: 90px;
+    height: 90px;
     background-color: #e0e0e0;
     flex-shrink: 0;
 }
