@@ -10,12 +10,21 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 <h1>Features</h1>
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The features and structure of the pages for The Gilded Key website include:
+1. Website General Structure & Navigation
+- Each page shares the identical header which contains the company logo ("/Images/Jewelry_logo.png") and a navigation bar with links to the Homepage, Product Page, Review Page and the Contact Page.
+- There is also a dedicated section that was present on all pages to highlight a promotion code for new members using a link ("<a href=""><u>New Member here? You can get the promotion code here!</u></a>").
+- All the pages also shared the copyright information in the footer "&copy; 2025 The Gilded Key. All rights reserved.".
+- All pages also shared the samee favicon logo, which is the company logo.
+
+2.
+
+3.
+
+4.
 
 <h2>Existing Features</h2>
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
 
 <h2>Features Left to Implement</h2>
 Another feature idea
