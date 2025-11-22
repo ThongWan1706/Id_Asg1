@@ -4,6 +4,8 @@ The Glided Key is founded by Thong Wan , which focus on selling top quality jewe
 <h1>Design Process</h1>
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
+During the design process, I choose a few jewelry website 
+
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
 As a user type, I want to perform an action, so that I can achieve a goal.
@@ -15,17 +17,16 @@ The features and structure of the pages for The Gilded Key website include:
 - Each page shares the identical header which contains the company logo ("/Images/Jewelry_logo.png") and a navigation bar with links to the Homepage, Product Page, Review Page and the Contact Page.
 - There is also a dedicated section that was present on all pages to highlight a promotion code for new members using a link ("<a href=""><u>New Member here? You can get the promotion code here!</u></a>").
 - All the pages also shared the copyright information in the footer "&copy; 2025 The Gilded Key. All rights reserved.".
-- All pages also shared the samee favicon logo, which is the company logo.
+- All pages also shared the same favicon logo, which is the company logo.
 
 2. Product Detail Pages
-- The pages focus on specific  products and have the following features:
-a. Product Information that includes:
+- The pages focus on specific products and product information that includes:
 i. A title at display the product name
-ii. Media that includes an image of the product
+ii. A picture that includes the image of the product
 iii. A detailed text description of the jewelry's design, materials, and significance
 iiii. The product's cost
 v. A Call to Action, which is the "Add to Cart" link, which directs the user to the Contact Page.
-vi. Navigation: A "return" button (which is the arrow) that links back to the Main Product Page.
+vi.  A "return" button (which is the arrow) that links back to the Main Product Page.
 vii. A section below the product details that showcases three specific customer reviews for that item. Each review includes the Customer Name, a Star Rating and their Comment.
 
 3. Homepage
@@ -37,19 +38,61 @@ vii. A section below the product details that showcases three specific customer 
 - For the product cards (top 3 reviews and top 3 products), it will link to their respective individual pages
 
 4. Contact Us Page
-
-
-
+- This page is designed for communication, which includes of sending feedbacks, questions that the customers would want to ask and make their fill their order there as well
+- The page also includes a visual image ("Images/contactpage_image.jpg), so that the page wouldn't look too simple and plain
+- The customers will need to subbmit the form including fields of 
+This page is designed for communication:
+i. Name (Required)
+ii. Contact Number
+iii.Email (Required)
+iiii.Comments (Text area)
 
 5. Client Review Pages
-
-6. 
+- These pages provides details about a specific customer who left a reviw
+- The details includes:
+i. The client's name
+ii. A picture of the client
+iii. The client;s overall star ratings
+iiii. A "return" button (which is the arrow) that links back to the Main Review Page.
+iv. A review box section that is filled with comments from the client
 
 <h2>Existing Features</h2>
+1. Navigation and Structure
+- All pages has a consistent header that includes a logo and a navigation bar
+- All pages has a section that a promotion link is placed for new members to collect if needed.
+- All pages has a uniform footer that includes the company's copyright notice
+- All pages as a favicon icon, which is the company logo.
 
+2. Homepage
+- It includes a main banner image
+- It includes a Featured Products section which highlights the top 3 popular products with images, prices and links to their detail pages.
+- It includes the Featured Reviews section which highlights the top 3 clients with images, names, star rating and links to their individual client pages 
+- It includes a see more button that located at the right side of the Reatured Products and Featured Reviews text, which links to their respective main pages.
+
+3. Product Detail Pages
+- It includes the product image, title, price, and a detailed description
+- There's a Call to Action "Add to Cart" button that links to the Contact Us page.
+- There's a return button which links back to the main product page.
+- Every product have a review section that showis three reviews specifically related to that product.
+- Each review has the customer's picture, name, star rating, and comment.
+
+4. Contact Us Page
+- It includes a form for users to submit inquiries with fields that contains:
+i. Name (Required)
+ii. Contact Number
+iii.Email (Required)
+iiii.Comments (Text area)
+- A visual element that ensure the page loks simple and elegant.
+
+5. Client Review Page
+- It shows the client's profile picture, name and their star rating.
+- There's a return button which links back to the main review page.
+- A review box section that is filled with comments from the client.
 
 <h2>Features Left to Implement</h2>
-Another feature idea
+- I was hoping to implement a shopping cart system into the website but unable to do that as I'm not really strong in Jayascript
+- I was also thinking to implement a like list where the client can "like" a product
+- For the shopping cart, as the client add more product, there can be a total cost that can calculate the total cost they add the products into their shopping cart
 
 <h1>Technologies Used</h1>
 The languages that I used for this project will be:
@@ -60,13 +103,22 @@ The languages that I used for this project will be:
 Contact form:
 1. Go to the "Contact Us" page
 2. Try to submit the empty form and verify that an error message about the required fields appears
-3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-4. Try to submit the form with all inputs valid and verify that a success message appears.
-5. 
+3. Try to submit the form with all inputs valid and verify that a success message appears.
+4. Since the location of the form is empty, it will links to a plain page
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Product Card Details:
+1. Go to the Products page using the navigation bar
+2. Find a product you are interested to know
+3. Click on the See More button
+4. It should link to its respective page
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Review Card Details:
+1. Go to the Reviews page using the navigation bar
+2. Find a client you are interested to know
+3. Click on the See More button
+4. It should link to its respective page
+
+
 
 <h1>Credits</h1>
 
@@ -108,4 +160,5 @@ https://www.pinterest.com/pin/563018698313473/
 https://www.pinterest.com/pin/109775309663823482/
 
 <h1>Acknowledgements</h1>
-I received inspiration for this project layout are mostly from Nike.
+I received inspiration for this project layout with reference in the google search by using the keyword "Jewelry Website Designs"
+Link: https://www.google.com/search?sca_esv=8dec4569382b1d34&rlz=1C1CHBF_en-GBSG1188SG1189&sxsrf=AE3TifPNX7HjRjXc-MFI_eZAgz4cnq2kQg:1763795024340&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeioyp3OhN11EY0n5qfq-zENwnGygERInUV_0g0XKeHGJEwefEKJ1XNp8V3tgIFOgMCFnPVxjLKzast-mAW6lY6x4yZaxANKsM-igoXsGb72p1hEK9MISj3sreICpn42460KfTSKgQfLw9TxISOaJFv8bCPeGr2CFsjTFxitan8tPWhAR0A&q=jewelry+website+design&sa=X&ved=2ahUKEwj6o4e_mIWRAxW0bGwGHe6IJvQQtKgLegQIERAB&biw=1536&bih=826&dpr=1.25 
