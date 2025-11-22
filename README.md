@@ -17,11 +17,33 @@ The features and structure of the pages for The Gilded Key website include:
 - All the pages also shared the copyright information in the footer "&copy; 2025 The Gilded Key. All rights reserved.".
 - All pages also shared the samee favicon logo, which is the company logo.
 
-2.
+2. Product Detail Pages
+- The pages focus on specific  products and have the following features:
+a. Product Information that includes:
+i. A title at display the product name
+ii. Media that includes an image of the product
+iii. A detailed text description of the jewelry's design, materials, and significance
+iiii. The product's cost
+v. A Call to Action, which is the "Add to Cart" link, which directs the user to the Contact Page.
+vi. Navigation: A "return" button (which is the arrow) that links back to the Main Product Page.
+vii. A section below the product details that showcases three specific customer reviews for that item. Each review includes the Customer Name, a Star Rating and their Comment.
 
-3.
+3. Homepage
+- The homepage serves as a landing page and the features include are:
+- A large image banner ("/Images/Jewelry_main_banner.jpeg").
+- A Featured Products section that shows the top 3 popular products, which is the Flower Beaded Bracelet, Muscial Ring and the Rose Necklace.
+- A Review section that highlights the top 3 customer reviews with the star rating, which is Maria, Stephanie and Celestial.
+- For the See More button for the Featured Products and Review section will link to its respective main pages, which is the main Featured Products page and the main Review section
+- For the product cards (top 3 reviews and top 3 products), it will link to their respective individual pages
 
-4.
+4. Contact Us Page
+
+
+
+
+5. Client Review Pages
+
+6. 
 
 <h2>Existing Features</h2>
 
@@ -30,18 +52,17 @@ The features and structure of the pages for The Gilded Key website include:
 Another feature idea
 
 <h1>Technologies Used</h1>
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
+The languages that I used for this project will be:
+- HTML
+- CSS
 
 <h1>Testing</h1>
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
 Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+1. Go to the "Contact Us" page
+2. Try to submit the empty form and verify that an error message about the required fields appears
+3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+4. Try to submit the form with all inputs valid and verify that a success message appears.
+5. 
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
