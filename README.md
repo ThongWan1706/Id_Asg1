@@ -118,11 +118,6 @@ Review Card Details:
 3. Click on the See More button
 4. It should link to its respective page
 
-
-
-<h1>Credits</h1>
-
-
 <h1>Content</h1>
 Content are all self created.
 
