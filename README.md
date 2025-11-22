@@ -77,13 +77,13 @@ iiii.Comments (Text area)
 
 - The details includes:
 
-i. The client's name
+    - The client's name
 
-ii. A picture of the client
+    - A picture of the client
 
-iii. The client;s overall star ratings
+    - The client's overall star ratings
 
-iiii. A "return" button (which is the arrow) that links back to the Main Review Page.
+    - A "return" button (which is the arrow) that links back to the Main Review Page.
 
 iv. A review box section that is filled with comments from the client
 
@@ -125,13 +125,13 @@ iv. A review box section that is filled with comments from the client
 
 - It includes a form for users to submit inquiries with fields that contains:
 
-i. Name (Required)
+    - Name (Required)
 
-ii. Contact Number
+    - Contact Number
 
-iii.Email (Required)
+    - Email (Required)
 
-iiii.Comments (Text area)
+    - Comments (Text area)
 
 - A visual element that ensure the page loks simple and elegant.
 
@@ -188,36 +188,51 @@ The photos used in this site were obtained from:
 
 Product Main Banner & Contact Us Main Banner:
 https://www.pinterest.com/pin/4609152816617138944/
+
 https://www.pinterest.com/pin/131519251612323720/
 
 
 Bracelets:
 https://www.pinterest.com/pin/5136987070144697/
+
 https://www.pinterest.com/pin/1970393583232304/
+
 https://www.pinterest.com/pin/2462974792348656/
 
 
 Necklaces:
 https://www.pinterest.com/pin/11470174046831864/
+
 https://www.pinterest.com/pin/6825836929908064/
+
 https://www.pinterest.com/pin/914862420208649/
 
 
 Rings:
 https://www.pinterest.com/pin/4292562140365566/
+
 https://www.pinterest.com/pin/48273027252447961/
+
 https://www.pinterest.com/pin/9218374232776330/
 
 
 People icons pic:
 https://www.pinterest.com/pin/7318418139553915/
+
 https://www.pinterest.com/pin/3729612248732836/
+
 https://www.pinterest.com/pin/7740630605892876/
+
 https://www.pinterest.com/pin/88312842690697632/
+
 https://www.pinterest.com/pin/914862421632844/
+
 https://www.pinterest.com/pin/65935582036579373/
+
 https://www.pinterest.com/pin/703756188505230/
+
 https://www.pinterest.com/pin/563018698313473/
+
 https://www.pinterest.com/pin/109775309663823482/
 
 
