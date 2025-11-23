@@ -96,7 +96,7 @@ function applyPromoCode() {
 //Done with the order
 function checkout() {
     saveCartList([]); 
-    alert("Order complete! Please go to the Contact page to finalize details.");
+    alert("Order complete! Please take a screenshot of your ordered list and go to the Contact page to finalize the details!");
     window.location.href = 'contact.html';
 }
 
