@@ -774,6 +774,47 @@ header {
     background-color: #4e342e;
 }
 
+/* Simplified Promo Code Area */
+.promo-area {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+
+.promo-area input {
+    flex-grow: 1; 
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.promo-area button {
+    background-color: #5d4037; 
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Styling for the message */
+#promoMessage {
+    flex-basis: 100%; 
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Styling for the discount line in the summary */
+.summary-line.discount {
+    color: #388e3c; 
+    font-weight: bold;
+}
+
 /* --- RESPONSIVE ADJUSTMENTS --- */
 @media (max-width: 496px) {
   header {
