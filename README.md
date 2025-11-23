@@ -28,19 +28,19 @@ The features and structure of the pages for The Gilded Key website include:
 
 - The pages focus on specific products and product information that includes:
 
-i. A title at display the product name
+    - A title at display the product name
 
-ii. A picture that includes the image of the product
+    - A picture that includes the image of the product
 
-iii. A detailed text description of the jewelry's design, materials, and significance
+    - A detailed text description of the jewelry's design, materials, and significance
 
-iiii. The product's cost
+    - The product's cost
 
-v. A Call to Action, which is the "Add to Cart" link, which directs the user to the Contact Page.
+    - A Call to Action, which is the "Add to Cart" link, which directs the user to the Contact Page.
 
-vi.  A "return" button (which is the arrow) that links back to the Main Product Page.
+    - A "return" button (which is the arrow) that links back to the Main Product Page.
 
-vii. A section below the product details that showcases three specific customer reviews for that item. Each review includes the Customer Name, a Star Rating and their Comment.
+    - A section below the product details that showcases three specific customer reviews for that item. Each review includes the Customer Name, a Star Rating and their Comment.
 
 3. Homepage
 
@@ -64,13 +64,13 @@ vii. A section below the product details that showcases three specific customer 
 
 - The customers will need to subbmit the form including fields of:
 
-i. Name (Required)
+    - Name (Required)
 
-ii. Contact Number
+    - Contact Number
 
-iii.Email (Required)
+    - Email (Required)
 
-iiii.Comments (Text area)
+    - Comments (Text area)
 
 5. Client Review Pages
 - These pages provides details about a specific customer who left a review
