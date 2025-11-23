@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Client: Darren</title>
+    <title>The Gilded Key | Shopping Cart</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="Images/Jewelry_logo.png" />
-    <script src="shopping_cart.js"></script>
+    <script src="cart.js"></script>
   </head>
   <body>
     <header>
@@ -18,7 +18,9 @@
         <li><a href="productpage.html">Products</a></li>
         <li><a href="review.html">Reviews</a></li>
         <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="cart.html"> <span id="CartText">Cart </span></a></li>
+        <li>
+          <a href="cart.html"> <span id="cartText">Cart </span></a>
+        </li>
       </ul>
     </header>
 
@@ -30,35 +32,23 @@
       </p>
     </section>
 
-    <p></p>
-
-    <section class="return">
-      <div class="sectionname">
-        <a href="review.html" class="returnbutton">&larr;</a>
-      </div>
-    </section>
-
-    <p></p>
-
-    <section class="review-detail-main-section">
-      <div class="review-media">
-        <img src="Images/Clients/Darren.jpg" alt="Darren" />
+    <main class="cart-page-content">
+      <div class="cart-header">
+        <h1>Your Shopping Cart</h1>
+        <p>Review your items before proceeding to contact for final order.</p>
       </div>
 
-      <div class="review-summary">
-        <h1>Darren</h1>
-        <p><span class="stars">★★★★★</span></p>
-      </div>
-    </section>
+      <section id="cartList" class="cart-items-list"></section>
 
-    <section class="reviews-section">
-      <div class="review-client-comment">Darren</div>
-    </section>
+      <aside id="cartSummary" class="cart-summary-box"></aside>
+    </main>
 
     <footer class="site-footer">
       <div class="copyright">
-        <p>&copy; 2025 The Gilded Key. All rights reserved.</p>
+        &copy; 2025 The Gilded Key. All rights reserved.
       </div>
     </footer>
+
+    <script src="shopping_cart.js"></script>
   </body>
 </html>

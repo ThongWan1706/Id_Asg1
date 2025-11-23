@@ -146,16 +146,13 @@ iv. A review box section that is filled with comments from the client
 
 <h2>Features Left to Implement</h2>
 
-- I was hoping to implement a shopping cart system into the website but unable to do that as I'm not really strong in Jayascript
-
-- I was also thinking to implement a like list where the client can "like" a product
-
-- For the shopping cart, as the client add more product, there can be a total cost that can calculate the total cost they add the products into their shopping cart
+- I was thinking to implement a like list where the client can "like" a product
 
 <h1>Technologies Used</h1>
 The languages that I used for this project will be:
 - HTML
 - CSS
+- Javascript
 
 <h1>Testing</h1>
 Contact form:

@@ -6,6 +6,7 @@
     <title>Blue Flower Rings</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="Images/Jewelry_logo.png" />
+    <script src="cart.js"></script>
   </head>
   <body>
     <header>
@@ -17,6 +18,8 @@
         <li><a href="productpage.html">Products</a></li>
         <li><a href="review.html">Reviews</a></li>
         <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="cart.html"> <span id="cartText">Cart </span></a></li>
+
       </ul>
     </header>
 
@@ -38,7 +41,12 @@
 
     <p></p>
 
-    <section class="product-detail-main-section">
+    <section
+      class="product-detail-main-section"
+      data-id="A002"
+      data-name="Blue Flower Ring"
+      data-price="13.00"
+    >
       <div class="product-media">
         <img src="Images/Rings/Blue_flower_ring.jpg" alt="Blue_flower_ring" />
       </div>
@@ -55,7 +63,9 @@
           contrast against the polished white metal band.
         </div>
         <p class="price">$13.00</p>
-        <a href="contact.html" class="Addtocart">Add to Cart &rarr;</a>
+        <button class="addtocartbutton" onclick="addItem(this)">
+          Add to Cart &rarr;
+        </button>
       </div>
     </section>
 
