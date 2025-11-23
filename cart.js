@@ -179,7 +179,6 @@ function displayCartItems() {
     `;
 }
 
-
 // Run the displayCartItems function only on the Cart page
 if (document.title.includes('Cart')) {
     document.addEventListener('DOMContentLoaded', displayCartItems);
