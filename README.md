@@ -14,21 +14,21 @@ This section is also where you would share links to any wireframes, mockups, dia
 <h1>Features</h1>
 The features and structure of the pages for The Gilded Key website include:
 <ul>1. Website General Structure & Navigation<>
-<li>- Each page shares the identical header which contains the company logo ("/Images/Jewelry_logo.png") and a navigation bar with links to the Homepage, Product Page, Review Page and the Contact Page.</li>
-<li>- There is also a dedicated section that was present on all pages to highlight a promotion code for new members using a link ("<a href=""><u>New Member here? You can get the promotion code here!</u></a>").</li>
-<li>- All the pages also shared the copyright information in the footer "&copy; 2025 The Gilded Key. All rights reserved.". </li>
-<li>- All pages also shared the same favicon logo, which is the company logo. </li>
+<li>Each page shares the identical header which contains the company logo ("/Images/Jewelry_logo.png") and a navigation bar with links to the Homepage, Product Page, Review Page and the Contact Page.</li>
+<li>There is also a dedicated section that was present on all pages to highlight a promotion code for new members using a link ("<a href=""><u>New Member here? You can get the promotion code here!</u></a>").</li>
+<li>All the pages also shared the copyright information in the footer "&copy; 2025 The Gilded Key. All rights reserved.". </li>
+<li>All pages also shared the same favicon logo, which is the company logo. </li>
 </ul>
 
 <ul>2. Product Detail Pages
-<li>- The pages focus on specific products and product information that includes:</li>
-<li>    - A title at display the product name</li>
-<li>    - A picture that includes the image of the product</li>
-<li>    - A detailed text description of the jewelry's design, materials, and significance</li>
-<li>    - The product's cost</li>
-<li>    - A Call to Action, which is the "Add to Cart" link, which directs the user to the Contact Page.</li>
-<li>    - A "return" button (which is the arrow) that links back to the Main Product Page.</li>
-<li>    - A section below the product details that showcases three specific customer reviews for that item. Each review includes the Customer Name, a Star Rating and their Comment.</li>
+<li>The pages focus on specific products and product information that includes:</li>
+    <li> A title at display the product name</li>
+    <li> A picture that includes the image of the product</li>
+    <li> A detailed text description of the jewelry's design, materials, and significance</li>
+    <li> The product's cost</li>
+    <li> A Call to Action, which is the "Add to Cart" link, which directs the user to the Contact Page.</li>
+    <li> A "return" button (which is the arrow) that links back to the Main Product Page.</li>
+    <li> A section below the product details that showcases three specific customer reviews for that item. Each review includes the Customer Name, a Star Rating and their Comment.</li>
 </ul>
 
 3. Homepage
