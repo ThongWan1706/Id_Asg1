@@ -18,30 +18,20 @@ The features and structure of the pages for The Gilded Key website include:
 1. Website General Structure & Navigation
 
 - Each page shares the identical header which contains the company logo ("/Images/Jewelry_logo.png") and a navigation bar with links to the Homepage, Product Page, Review Page and the Contact Page.
-
 - There is also a dedicated section that was present on all pages to highlight a promotion code for new members using a link ("<a href=""><u>New Member here? You can get the promotion code here!</u></a>").
-
 - All the pages also shared the copyright information in the footer "&copy; 2025 The Gilded Key. All rights reserved.".
-
 - All pages also shared the same favicon logo, which is the company logo.
 
 2. Product Detail Pages
 
 - The pages focus on specific products and product information that includes:
-
-i. A title at display the product name
-
-ii. A picture that includes the image of the product
-
-iii. A detailed text description of the jewelry's design, materials, and significance
-
-iiii. The product's cost
-
-v. A Call to Action, which is the "Add to Cart" link, which directs the user to the Contact Page.
-
-vi.  A "return" button (which is the arrow) that links back to the Main Product Page.
-
-vii. A section below the product details that showcases three specific customer reviews for that item. Each review includes the Customer Name, a Star Rating and their Comment.
+    - A title at display the product name
+    - A picture that includes the image of the product
+    - A detailed text description of the jewelry's design, materials, and significance
+    - The product's cost
+    - A Call to Action, which is the "Add to Cart" link, which directs the user to the Contact Page.
+    - A "return" button (which is the arrow) that links back to the Main Product Page.
+    - A section below the product details that showcases three specific customer reviews for that item. Each review includes the Customer Name, a Star Rating and their Comment.
 
 3. Homepage
 - The homepage serves as a landing page and the features include are:
@@ -55,14 +45,11 @@ vii. A section below the product details that showcases three specific customer 
 - This page is designed for communication, which includes of sending feedbacks, questions that the customers would want to ask and make their fill their order there as well
 - The page also includes a visual image ("Images/contactpage_image.jpg), so that the page wouldn't look too simple and plain
 - The customers will need to subbmit the form including fields of:
-
-i. Name (Required)
-
-ii. Contact Number
-
-iii.Email (Required)
-
-iiii.Comments (Text area)
+    - Name (Required)
+    - Contact Number
+    - Email (Required)
+    - Comments (Text area)
+    - A screenshot of their order (file upload)
 
 5. Client Review Pages
 - These pages provides details about a specific customer who left a review
@@ -71,7 +58,20 @@ iiii.Comments (Text area)
     - A picture of the client
     - The client's overall star ratings
     - A "return" button (which is the arrow) that links back to the Main Review Page.
-    - A review box section that is filled with comments from the client
+    - A review box section that is filled with comments from the client.
+
+6. Cart Page
+- This page includes a list of items that the user added their interested products into the cart
+- It includes the quantity of the product, the name of the product and the price of the product
+- It also shows the grand total of the items they have in the cart
+- There's a promo code section where the user can enter in, they can get a discount if the promo code is valid
+- There's also a button that proceeds to Contact Page once the user completed their order, there'll be a popout alert that will remind the user to take a screeshot of their order
+- If there's no items being added in the cart, it will have a blank rectangle with the text that encourages users to add items into the cart
+- There's a delete button as well if the user want to remove the item from the cart
+
+7. Promo Code Page
+- This page is being activated when the user clicked onto the promo code section from each page
+- It shows a welcoming message for first time users and gives a free promo code for the user to use for their first purchase.
 
 6. Cart Page
 - This page includes a list of items that the user added their interested products into the cart
@@ -119,6 +119,21 @@ iiii.Comments (Text area)
 - It shows the client's profile picture, name and their star rating.
 - There's a return button which links back to the main review page.
 - A review box section that is filled with comments from the client.
+
+6. Cart Page
+- It includes the list of items being added by the user
+- The list will include:
+    - Quantity of the product
+    - Name of the product
+    - Price of the product
+    - A delete button if the user want to remove the item from the cart
+- If it's empty, it'll show a text that encourages the user to start shopping and start adding items to the cart
+- A section where it shows the grand total of the items they have in the cart
+- A promo code section where the user can enter in, they can get a discount if the promo code is valid
+- A button that proceeds to Contact Page once the user completed their order, there'll be a popout alert that will remind the user to take a screeshot of their order
+
+7. Promo Code page
+- It includes a text of welcoming message for first time customers and gives a promo code for the users to use for their first time purchase.
 
 6. Cart Page
 - It includes the list of items being added by the user
