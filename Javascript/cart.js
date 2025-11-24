@@ -1,41 +1,14 @@
 //Shopping Cart codes
 
-const CART_KEY = 'shoppingCartList';
-const ICON_SELECTOR = '#cartText'; 
-const PROMO_CODE = 'NEWKEY15';
-const DISCOUNT_RATE = 0.15;
-const PROMO_KEY = 'promoApplied';
-
-// Alert Bar to show the item is added to the cart
-function showAlert(message) {
-    const alertBar = document.getElementById('customAlert');
-    if (alertBar) {
-        alertBar.textContent = message;
-        alertBar.classList.add('show');
-    }
-}
+const cartkey = 'shoppingCartList';
+const selector = '#cartText'; 
+const promocode = 'NEWKEY15';
+const discount = 0.15;
+const promopast = 'promoApplied';
 
 //Get a new list
 function getCartList() {
-    return JSON.parse(localStorage.getItem(CART_KEY)) || [];
-}
-
-//Save the list and update the cart
-function saveCartList(cartList) {
-    localStorage.setItem(CART_KEY, JSON.stringify(cartList));
-    updateCartCount();
-}
-
-//Count all items and update the cart (FIXED: totalItems added back)
-function updateCartCount() {
-    const itemList = getCartList();
-    // Calculate the total number of items
-    const totalItems = itemList.reduce((total, item) => total + item.quantity, 0); 
-    
-    const iconElement = document.querySelector(ICON_SELECTOR);
-    if (iconElement) {
-        iconElement.textContent = `🛒 Cart (${totalItems})`; 
-    }
+    return JSON.parse(localStorage.getItem(cartkey)) || [];
 }
 
 //Add items in the cart
@@ -68,6 +41,24 @@ function removeItem(itemId) {
     displayCartItems(); 
 }
 
+//Save the list and update the cart
+function saveCartList(cartList) {
+    localStorage.setItem(cartkey, JSON.stringify(cartList));
+    updateCartCount();
+}
+
+//Count all items and update the cart
+function updateCartCount() {
+    const itemList = getCartList();
+    // Calculate the total number of items
+    const totalItems = itemList.reduce((total, item) => total + item.quantity, 0); 
+    
+    const iconElement = document.querySelector(selector);
+    if (iconElement) {
+        iconElement.textContent = `🛒 Cart (${totalItems})`; 
+    }
+}
+
 //If have discount code
 function applyPromoCode() {
     const inputElement = document.getElementById('promoCode');
@@ -81,33 +72,23 @@ function applyPromoCode() {
 
     const input = inputElement.value.toUpperCase().trim();
     
-    if (input === PROMO_CODE) {
-        localStorage.setItem(PROMO_KEY, 'true');
+    if (input === promocode) {
+        localStorage.setItem(promopast, 'true');
         messageElement.textContent = `SUCCESS: 15% discount applied!`;
         messageElement.style.color = '#388e3c'; 
     } else {
-        localStorage.removeItem(PROMO_KEY); 
+        localStorage.removeItem(promopast); 
         messageElement.textContent = 'Invalid promo code.';
         messageElement.style.color = '#d32f2f'; 
     }
     displayCartItems(); 
 }
 
-//Done with the order
-function checkout() {
-    saveCartList([]); 
-    alert("Order complete! Please take a screenshot of your ordered list and go to the Contact page to finalize the details!");
-    window.location.href = 'contact.html';
-}
-
-
 //Display the items in the cart
 function displayCartItems() {
     const cartItems = getCartList();
     const listContainer = document.getElementById('cartList');
     const summaryContainer = document.getElementById('cartSummary');
-    
-    if (!listContainer || !summaryContainer) return;
 
     // If the cart is empty
     if (cartItems.length === 0) {
@@ -137,7 +118,7 @@ function displayCartItems() {
     listContainer.innerHTML = htmlOutput; 
 
     // Promo code checking
-    const isPromoApplied = localStorage.getItem(PROMO_KEY) === 'true';
+    const isPromoApplied = localStorage.getItem(promopast) === 'true';
     let discountAmount = 0;
 
     // Get the promo code and check if they exist first
@@ -145,9 +126,9 @@ function displayCartItems() {
     const messageElement = document.getElementById('promoMessage');
 
     if (isPromoApplied) {
-        discountAmount = grandTotal * DISCOUNT_RATE;
+        discountAmount = grandTotal * discount;
         
-        if (inputElement) inputElement.value = PROMO_CODE;
+        if (inputElement) inputElement.value = promocode;
         if (messageElement) {
              messageElement.textContent = `15% Discount Applied!`;
              messageElement.style.color = '#388e3c';
@@ -178,6 +159,14 @@ function displayCartItems() {
         <button onclick="checkout()" class="checkout-button">Proceed to Contact &rarr;</button>
     `;
 }
+
+//Done with the order
+function checkout() {
+    saveCartList([]); 
+    alert("Order complete! Please take a screenshot of your ordered list and go to the Contact page to finalize the details!");
+    window.location.href = 'contact.html';
+}
+
 
 // Run the displayCartItems function only on the Cart page
 if (document.title.includes('Cart')) {
