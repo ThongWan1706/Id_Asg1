@@ -121,43 +121,37 @@ Review Card Details:
 Content are all self created.
 
 <h1>Media</h1>
-The photos used in this site were obtained from:
 
 Product Main Banner & Contact Us Main Banner:
-- https://www.pinterest.com/pin/4609152816617138944/
-- https://www.pinterest.com/pin/131519251612323720/
+- https://www.pinterest.com/pin/4609152816617138944/</li>
+- https://www.pinterest.com/pin/131519251612323720/</li>
 
+Bracelets:
+- https://www.pinterest.com/pin/5136987070144697/
+- https://www.pinterest.com/pin/1970393583232304/
+- https://www.pinterest.com/pin/2462974792348656/
 
-<ul>Bracelets:
-<li>https://www.pinterest.com/pin/5136987070144697/</li>
-<li>https://www.pinterest.com/pin/1970393583232304/</li>
-<li>https://www.pinterest.com/pin/2462974792348656/</li>
-</ul>
+Necklaces:
+- https://www.pinterest.com/pin/11470174046831864/
+- https://www.pinterest.com/pin/6825836929908064/
+- https://www.pinterest.com/pin/914862420208649/
 
-<ul>Necklaces:
-<li>https://www.pinterest.com/pin/11470174046831864/</li>
-<li>https://www.pinterest.com/pin/6825836929908064/</li>
-<li>https://www.pinterest.com/pin/914862420208649/</li>
-</ul>
+Rings:
+- https://www.pinterest.com/pin/4292562140365566/
+- https://www.pinterest.com/pin/48273027252447961/
+- https://www.pinterest.com/pin/9218374232776330/
 
+People icons pic:
+- https://www.pinterest.com/pin/7318418139553915/
+- https://www.pinterest.com/pin/3729612248732836/
+- https://www.pinterest.com/pin/7740630605892876/
+- https://www.pinterest.com/pin/88312842690697632/
+- https://www.pinterest.com/pin/914862421632844/
+- https://www.pinterest.com/pin/65935582036579373/
+- https://www.pinterest.com/pin/703756188505230/
+- https://www.pinterest.com/pin/563018698313473/
+- https://www.pinterest.com/pin/109775309663823482/
 
-<ul>Rings:
-<li>https://www.pinterest.com/pin/4292562140365566/</li>
-<li>https://www.pinterest.com/pin/48273027252447961/</li>
-<li>https://www.pinterest.com/pin/9218374232776330/</li>
-</ul>
-
-<ul>People icons pic:
-<li>https://www.pinterest.com/pin/7318418139553915/</li>
-<li>https://www.pinterest.com/pin/3729612248732836/</li>
-<li>https://www.pinterest.com/pin/7740630605892876/</li>
-<li>https://www.pinterest.com/pin/88312842690697632/</li>
-<li>https://www.pinterest.com/pin/914862421632844/</li>
-<li>https://www.pinterest.com/pin/65935582036579373/</li>
-<li>https://www.pinterest.com/pin/703756188505230/</li>
-<li>https://www.pinterest.com/pin/563018698313473/</li>
-<li>https://www.pinterest.com/pin/109775309663823482/</li>
-</ul>
 
 <h1>Acknowledgements</h1>
 I received inspiration for this project layout with reference in the google search by using the keyword "Jewelry Website Designs"
