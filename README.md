@@ -13,23 +13,30 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 <h1>Features</h1>
 The features and structure of the pages for The Gilded Key website include:
-<ul>1. Website General Structure & Navigation<>
-<li>Each page shares the identical header which contains the company logo ("/Images/Jewelry_logo.png") and a navigation bar with links to the Homepage, Product Page, Review Page and the Contact Page.</li>
-<li>There is also a dedicated section that was present on all pages to highlight a promotion code for new members using a link ("<a href=""><u>New Member here? You can get the promotion code here!</u></a>").</li>
-<li>All the pages also shared the copyright information in the footer "&copy; 2025 The Gilded Key. All rights reserved.". </li>
-<li>All pages also shared the same favicon logo, which is the company logo. </li>
-</ul>
 
-<ul>2. Product Detail Pages
-<li>The pages focus on specific products and product information that includes:</li>
-    <li> A title at display the product name</li>
-    <li> A picture that includes the image of the product</li>
-    <li> A detailed text description of the jewelry's design, materials, and significance</li>
-    <li> The product's cost</li>
-    <li> A Call to Action, which is the "Add to Cart" link, which directs the user to the Contact Page.</li>
-    <li> A "return" button (which is the arrow) that links back to the Main Product Page.</li>
-    <li> A section below the product details that showcases three specific customer reviews for that item. Each review includes the Customer Name, a Star Rating and their Comment.</li>
-</ul>
+1. Website General Structure & Navigation<>
+- Each page shares the identical header which contains the company logo ("/Images/Jewelry_logo.png") and a navigation bar with links to the Homepage, Product Page, Review Page and the Contact Page.
+- There is also a dedicated section that was present on all pages to highlight a promotion code for new members using a link ("<a href=""><u>New Member here? You can get the promotion code here!</u></a>").
+- All the pages also shared the copyright information in the footer "&copy; 2025 The Gilded Key. All rights reserved.". 
+- All pages also shared the same favicon logo, which is the company logo. 
+
+
+2. Product Detail Pages
+  - The pages focus on specific products and product information that includes:
+
+    - A title at display the product name
+
+    - A picture that includes the image of the product
+
+    - A detailed text description of the jewelry's design, materials, and significance
+
+    - The product's cost
+ 
+    - A Call to Action, which is the "Add to Cart" link, which directs the user to the Contact Page.
+ 
+    - A "return" button (which is the arrow) that links back to the Main Product Page.
+ 
+    - A section below the product details that showcases three specific customer reviews for that item. Each review includes the Customer Name, a Star Rating and their Comment.
 
 3. Homepage
 
@@ -53,13 +60,14 @@ The features and structure of the pages for The Gilded Key website include:
 
 - The customers will need to subbmit the form including fields of:
 
-i. Name (Required)
+    - Name (Required)
 
-ii. Contact Number
+    - Contact Number
 
-iii.Email (Required)
+    - Email (Required)
 
-iiii.Comments (Text area)
+    - Comments (Text area)
+
 
 5. Client Review Pages
 - These pages provides details about a specific customer who left a review
@@ -122,7 +130,7 @@ iv. A review box section that is filled with comments from the client
 
     - Comments (Text area)
 
-- A visual element that ensure the page loks simple and elegant.
+    - A visual element that ensure the page loks simple and elegant.
 
 5. Client Review Page
 
@@ -130,7 +138,7 @@ iv. A review box section that is filled with comments from the client
 
 - There's a return button which links back to the main review page.
 
-- A review box section that is filled with comments from the client.
+- A review box section that is filled with comments from the client
 
 
 <h2>Features Left to Implement</h2>
@@ -145,6 +153,7 @@ The languages that I used for this project will be:
 
 <h1>Testing</h1>
 Contact form:
+
 1. Go to the "Contact Us" page
 2. Try to submit the empty form and verify that an error message about the required fields appears
 3. Try to submit the form with all inputs valid and verify that a success message appears.
