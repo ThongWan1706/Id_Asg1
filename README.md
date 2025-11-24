@@ -73,6 +73,19 @@ iiii.Comments (Text area)
     - A "return" button (which is the arrow) that links back to the Main Review Page.
     - A review box section that is filled with comments from the client
 
+6. Cart Page
+- This page includes a list of items that the user added their interested products into the cart
+- It includes the quantity of the product, the name of the product and the price of the product
+- It also shows the grand total of the items they have in the cart
+- There's a promo code section where the user can enter in, they can get a discount if the promo code is valid
+- There's also a button that proceeds to Contact Page once the user completed their order, there'll be a popout alert that will remind the user to take a screeshot of their order
+- If there's no items being added in the cart, it will have a blank rectangle with the text that encourages users to add items into the cart
+- There's a delete button as well if the user want to remove the item from the cart
+
+7. Promo Code Page
+- This page is being activated when the user clicked onto the promo code section from each page
+- It shows a welcoming message for first time users and gives a free promo code for the user to use for their first purchase.
+
 <h2>Existing Features</h2>
 
 1. Navigation and Structure
@@ -105,7 +118,22 @@ iiii.Comments (Text area)
 5. Client Review Page
 - It shows the client's profile picture, name and their star rating.
 - There's a return button which links back to the main review page.
-- A review box section that is filled with comments from the client
+- A review box section that is filled with comments from the client.
+
+6. Cart Page
+- It includes the list of items being added by the user
+- The list will include:
+    - Quantity of the product
+    - Name of the product
+    - Price of the product
+    - A delete button if the user want to remove the item from the cart
+- If it's empty, it'll show a text that encourages the user to start shopping and start adding items to the cart
+- A section where it shows the grand total of the items they have in the cart
+- A promo code section where the user can enter in, they can get a discount if the promo code is valid
+- A button that proceeds to Contact Page once the user completed their order, there'll be a popout alert that will remind the user to take a screeshot of their order
+
+7. Promo Code page
+- It includes a text of welcoming message for first time customers and gives a promo code for the users to use for their first time purchase.
 
 <h2>Features Left to Implement</h2>
 I was thinking to implement a like list where the client can "like" a product
