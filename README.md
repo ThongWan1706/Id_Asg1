@@ -12,138 +12,109 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 <h1>Features</h1>
-The features and structure of the pages for The Gilded Key website include:
-<ul>1. Website General Structure & Navigation<>
-<li>- Each page shares the identical header which contains the company logo ("/Images/Jewelry_logo.png") and a navigation bar with links to the Homepage, Product Page, Review Page and the Contact Page.</li>
-<li>- There is also a dedicated section that was present on all pages to highlight a promotion code for new members using a link ("<a href=""><u>New Member here? You can get the promotion code here!</u></a>").</li>
-<li>- All the pages also shared the copyright information in the footer "&copy; 2025 The Gilded Key. All rights reserved.". </li>
-<li>- All pages also shared the same favicon logo, which is the company logo. </li>
-</ul>
 
-<ul>2. Product Detail Pages
-<li>- The pages focus on specific products and product information that includes:</li>
-<li>    - A title at display the product name</li>
-<li>    - A picture that includes the image of the product</li>
-<li>    - A detailed text description of the jewelry's design, materials, and significance</li>
-<li>    - The product's cost</li>
-<li>    - A Call to Action, which is the "Add to Cart" link, which directs the user to the Contact Page.</li>
-<li>    - A "return" button (which is the arrow) that links back to the Main Product Page.</li>
-<li>    - A section below the product details that showcases three specific customer reviews for that item. Each review includes the Customer Name, a Star Rating and their Comment.</li>
-</ul>
+The features and structure of the pages for The Gilded Key website include:
+
+1. Website General Structure & Navigation
+
+- Each page shares the identical header which contains the company logo ("/Images/Jewelry_logo.png") and a navigation bar with links to the Homepage, Product Page, Review Page and the Contact Page.
+
+- There is also a dedicated section that was present on all pages to highlight a promotion code for new members using a link ("<a href=""><u>New Member here? You can get the promotion code here!</u></a>").
+
+- All the pages also shared the copyright information in the footer "&copy; 2025 The Gilded Key. All rights reserved.".
+
+- All pages also shared the same favicon logo, which is the company logo.
+
+2. Product Detail Pages
+
+- The pages focus on specific products and product information that includes:
+
+i. A title at display the product name
+
+ii. A picture that includes the image of the product
+
+iii. A detailed text description of the jewelry's design, materials, and significance
+
+iiii. The product's cost
+
+v. A Call to Action, which is the "Add to Cart" link, which directs the user to the Contact Page.
+
+vi.  A "return" button (which is the arrow) that links back to the Main Product Page.
+
+vii. A section below the product details that showcases three specific customer reviews for that item. Each review includes the Customer Name, a Star Rating and their Comment.
 
 3. Homepage
-
 - The homepage serves as a landing page and the features include are:
-
 - A large image banner ("/Images/Jewelry_main_banner.jpeg").
-
 - A Featured Products section that shows the top 3 popular products, which is the Flower Beaded Bracelet, Muscial Ring and the Rose Necklace.
-
 - A Review section that highlights the top 3 customer reviews with the star rating, which is Maria, Stephanie and Celestial.
-
 - For the See More button for the Featured Products and Review section will link to its respective main pages, which is the main Featured Products page and the main Review section
-
 - For the product cards (top 3 reviews and top 3 products), it will link to their respective individual pages
 
 4. Contact Us Page
-
 - This page is designed for communication, which includes of sending feedbacks, questions that the customers would want to ask and make their fill their order there as well
-
 - The page also includes a visual image ("Images/contactpage_image.jpg), so that the page wouldn't look too simple and plain
-
 - The customers will need to subbmit the form including fields of:
 
-    - Name (Required)
+i. Name (Required)
 
-    - Contact Number
+ii. Contact Number
 
-    - Email (Required)
+iii.Email (Required)
 
-    - Comments (Text area)
+iiii.Comments (Text area)
 
 5. Client Review Pages
 - These pages provides details about a specific customer who left a review
-
 - The details includes:
-
     - The client's name
-
     - A picture of the client
-
     - The client's overall star ratings
-
     - A "return" button (which is the arrow) that links back to the Main Review Page.
-
-iv. A review box section that is filled with comments from the client
+    - A review box section that is filled with comments from the client
 
 <h2>Existing Features</h2>
+
 1. Navigation and Structure
-
 - All pages has a consistent header that includes a logo and a navigation bar
-
 - All pages has a section that a promotion link is placed for new members to collect if needed.
-
 - All pages has a uniform footer that includes the company's copyright notice
-
 - All pages as a favicon icon, which is the company logo.
 
 2. Homepage
-
 - It includes a main banner image
-
 - It includes a Featured Products section which highlights the top 3 popular products with images, prices and links to their detail pages.
-
 - It includes the Featured Reviews section which highlights the top 3 clients with images, names, star rating and links to their individual client pages 
-
 - It includes a see more button that located at the right side of the Reatured Products and Featured Reviews text, which links to their respective main pages.
 
-
 3. Product Detail Pages
-
 - It includes the product image, title, price, and a detailed description
-
 - There's a Call to Action "Add to Cart" button that links to the Contact Us page.
-
 - There's a return button which links back to the main product page.
-
 - Every product have a review section that showis three reviews specifically related to that product.
-
 - Each review has the customer's picture, name, star rating, and comment.
 
 4. Contact Us Page
-
 - It includes a form for users to submit inquiries with fields that contains:
-
     - Name (Required)
-
     - Contact Number
-
     - Email (Required)
-
     - Comments (Text area)
-
-- A visual element that ensure the page loks simple and elegant.
+    - A visual element that ensure the page loks simple and elegant.
 
 5. Client Review Page
-
 - It shows the client's profile picture, name and their star rating.
-
 - There's a return button which links back to the main review page.
-
-- A review box section that is filled with comments from the client.
-
+- A review box section that is filled with comments from the client
 
 <h2>Features Left to Implement</h2>
-
-- I was thinking to implement a like list where the client can "like" a product
+I was thinking to implement a like list where the client can "like" a product
 
 <h1>Technologies Used</h1>
-The languages that I used for this project will be:
-- HTML
-- CSS
-- Javascript
+The languages that I used for this project will be HTML, CSS and Javascript.
 
 <h1>Testing</h1>
+
 Contact form:
 
 1. Go to the "Contact Us" page
@@ -151,17 +122,13 @@ Contact form:
 3. Try to submit the form with all inputs valid and verify that a success message appears.
 4. Since the location of the form is empty, it will links to a plain page
 
-
 Product Card Details:
-
 1. Go to the Products page using the navigation bar
 2. Find a product you are interested to know
 3. Click on the See More button
 4. It should link to its respective page
 
-
 Review Card Details:
-
 1. Go to the Reviews page using the navigation bar
 2. Find a client you are interested to know
 3. Click on the See More button
@@ -171,56 +138,36 @@ Review Card Details:
 Content are all self created.
 
 <h1>Media</h1>
-The photos used in this site were obtained from:
 
 Product Main Banner & Contact Us Main Banner:
-https://www.pinterest.com/pin/4609152816617138944/
-
-https://www.pinterest.com/pin/131519251612323720/
-
+- https://www.pinterest.com/pin/4609152816617138944/</li>
+- https://www.pinterest.com/pin/131519251612323720/</li>
 
 Bracelets:
-https://www.pinterest.com/pin/5136987070144697/
-
-https://www.pinterest.com/pin/1970393583232304/
-
-https://www.pinterest.com/pin/2462974792348656/
-
+- https://www.pinterest.com/pin/5136987070144697/
+- https://www.pinterest.com/pin/1970393583232304/
+- https://www.pinterest.com/pin/2462974792348656/
 
 Necklaces:
-https://www.pinterest.com/pin/11470174046831864/
-
-https://www.pinterest.com/pin/6825836929908064/
-
-https://www.pinterest.com/pin/914862420208649/
-
+- https://www.pinterest.com/pin/11470174046831864/
+- https://www.pinterest.com/pin/6825836929908064/
+- https://www.pinterest.com/pin/914862420208649/
 
 Rings:
-https://www.pinterest.com/pin/4292562140365566/
-
-https://www.pinterest.com/pin/48273027252447961/
-
-https://www.pinterest.com/pin/9218374232776330/
-
+- https://www.pinterest.com/pin/4292562140365566/
+- https://www.pinterest.com/pin/48273027252447961/
+- https://www.pinterest.com/pin/9218374232776330/
 
 People icons pic:
-https://www.pinterest.com/pin/7318418139553915/
-
-https://www.pinterest.com/pin/3729612248732836/
-
-https://www.pinterest.com/pin/7740630605892876/
-
-https://www.pinterest.com/pin/88312842690697632/
-
-https://www.pinterest.com/pin/914862421632844/
-
-https://www.pinterest.com/pin/65935582036579373/
-
-https://www.pinterest.com/pin/703756188505230/
-
-https://www.pinterest.com/pin/563018698313473/
-
-https://www.pinterest.com/pin/109775309663823482/
+- https://www.pinterest.com/pin/7318418139553915/
+- https://www.pinterest.com/pin/3729612248732836/
+- https://www.pinterest.com/pin/7740630605892876/
+- https://www.pinterest.com/pin/88312842690697632/
+- https://www.pinterest.com/pin/914862421632844/
+- https://www.pinterest.com/pin/65935582036579373/
+- https://www.pinterest.com/pin/703756188505230/
+- https://www.pinterest.com/pin/563018698313473/
+- https://www.pinterest.com/pin/109775309663823482/
 
 
 <h1>Acknowledgements</h1>
