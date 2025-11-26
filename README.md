@@ -72,19 +72,6 @@ The features and structure of the pages for The Gilded Key website include:
 - This page is being activated when the user clicked onto the promo code section from each page
 - It shows a welcoming message for first time users and gives a free promo code for the user to use for their first purchase.
 
-6. Cart Page
-- This page includes a list of items that the user added their interested products into the cart
-- It includes the quantity of the product, the name of the product and the price of the product
-- It also shows the grand total of the items they have in the cart
-- There's a promo code section where the user can enter in, they can get a discount if the promo code is valid
-- There's also a button that proceeds to Contact Page once the user completed their order, there'll be a popout alert that will remind the user to take a screeshot of their order
-- If there's no items being added in the cart, it will have a blank rectangle with the text that encourages users to add items into the cart
-- There's a delete button as well if the user want to remove the item from the cart
-
-7. Promo Code Page
-- This page is being activated when the user clicked onto the promo code section from each page
-- It shows a welcoming message for first time users and gives a free promo code for the user to use for their first purchase.
-
 <h2>Existing Features</h2>
 
 1. Navigation and Structure
