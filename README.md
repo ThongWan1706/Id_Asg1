@@ -23,7 +23,6 @@ The features and structure of the pages for The Gilded Key website include:
 - All pages also shared the same favicon logo, which is the company logo.
 
 2. Product Detail Pages
-
 - The pages focus on specific products and product information that includes:
     - A title at display the product name
     - A picture that includes the image of the product
