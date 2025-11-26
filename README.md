@@ -163,6 +163,17 @@ Review Card Details:
 3. Click on the See More button
 4. It should link to its respective page
 
+Cart Page:
+1. Go to the Producrt page using the navigation bar
+2. Find a product you are interested to know
+3. Click on the See More button
+4. Click onto the Add to Cart Button
+5. The nav bar should change from Cart to Cart (1), the number will increase as you click on the button more
+6. Go to the cart page using the navigation bar
+7. Delete an item from the cart
+8. Apply the promo code "NEWKEY10" in the promo code section, it should be valid and can get a 15% discount from the total cost
+9. Click on the checkout button once the order is settled
+
 <h1>Content</h1>
 Content are all self created.
 
