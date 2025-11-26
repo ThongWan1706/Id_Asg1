@@ -178,7 +178,7 @@ header {
 .seemorebutton, 
 .sectionseemorebutton,
 .seemorebutton:focus, 
-.sectionseemorebutton:active {
+.sectionseemorebutton:active, .addtocartbutton, .addtocartbutton:focus {
   padding: 8px 15px;
   background-color: #f0f0f0; 
   border: none;
@@ -190,7 +190,7 @@ header {
   display: inline-block; 
   transition: background-color 0.3s, color 0.3s; }
 
-.seemorebutton:hover, .sectionseemorebutton:hover {
+.seemorebutton:hover, .sectionseemorebutton:hover, .addtocartbutton:hover {
   background-color: #b87333;
   color: #fffaf4; 
 }
