@@ -1,14 +1,25 @@
 <h1>The Glided Key</h1>
-The Glided Key is founded by Thong Wan , which focus on selling top quality jewelries with an affordable price. We believe that every one deserved to show their own unique beauty with accessories that they can afford, as accessories are very pricey due to its unique craftwork.
+The Glided Key is founded by Thong Wan (which is me), which focus on selling top quality jewelries with an affordable price. We believe that every one deserved to show their own unique beauty with accessories that they can afford, as accessories are very pricey due to its unique craftwork. Hence, we prioritize customer needs and affordable price, which provide the customer guilty free shopping and buying what they love.
 
 <h1>Design Process</h1>
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-During the design process, I choose a few jewelry website 
+During the design process, I refer to a few jewelry website layouts to help me set up how a typical website would look like.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+They mainly have a homepage that display a huge main product banner first, then follow by the top 3 most sell products in each category, but I choose to combine in one page without segregating as the more pages you have for your site it may confuse the users more.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
+My website are mainly focus on a wide range of customers, such as young adults that would want to dress themselves up better with addition of accessories, guys that would want to give their love ones high quality gifts with an afforable price, peoples that are budget conscious on accessories and more. As our main motive is everyone deserve to show their unique beauty with addtition of accessories, we provide them with high quality accessories with affordable prices as accessories can be quite pricey. With our product, we ensure customers to get what they wanted for so long without feeling guilty due to the pricing.
+
+<h3>List of User Stories: </h3>
+
+- As a visitor, I want to view the main navigation links so that I can easily navigate around the website
+- As a new member, I want to click the "New Members here?" link, so that I can get the promotion code
+- As a shopper, I want to see the list of products that the shop have in the Product page, so that I can browse available items
+- As a shopper, I want to view the price of a product on the Product Page, so that I can determine whether the item fits my budget
+- As a shopper, I want to visit the Cart Page, so that I can review the items I added before making the order.
+- As a shopper, I want to enter in the valid promo code and use it, so that I can have the discount for my overall payment before offically paying for my order
+- As a new vistor, I want to see the list of reviews on the Reviews page, so that I can gauge the quality of the products and services provided by the company
+- As a customer, I want to fill up the contact form with the Name, Contact Number, Email, Comments and a screeshot of my order so that I can send my order to the company
+- As an interested party, I want to click on the "Submit" button, so that my contact information and comments are sent to the company
 
 Figma Link for wireframes: https://www.figma.com/design/WNBQtm2k3pchOYsDfPDcJq/Asg-1--ID-?node-id=0-1&m=dev&t=kkawQL9uqc2FU1Wf-1 
 
